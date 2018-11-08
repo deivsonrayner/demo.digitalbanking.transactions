@@ -16,8 +16,8 @@ livenessProbe:
 service:
   name: Node
   type: NodePort
-  servicePort: 4200
-  serviceNodePort: 30200
+  servicePort: 3600
+  serviceNodePort: 30140
 hpa:
   enabled: false
   minReplicas: 2
