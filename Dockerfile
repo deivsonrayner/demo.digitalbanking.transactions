@@ -8,7 +8,7 @@ WORKDIR /app
 COPY . /app
 RUN cd /app; npm install; npm prune --production
 ENV NODE_ENV production
-ENV PORT 3600
+#ENV PORT 3600
 
-EXPOSE 3600
+EXPOSE 80
 CMD [ "npm","start" ]
